@@ -1,6 +1,6 @@
 # VPNv4 over MPLS
 
-An example service provider network that uses an MPLS core to connect two customer VPNs across separate provider edge routers. The configs and console captures show the control plane being built and the VPN routes appearing at both edges.
+This lab connects two customers, QNB and CIB, across a provider MPLS network. VRFs keep their traffic separate, while VPNv4 route distinguishers (RDs) make customer routes unique even when customers use overlapping IP addresses. OSPF and MPLS provide transport through the core, and MP-BGP carries VPN routes between the provider edge routers.
 
 ## Network at a glance
 
