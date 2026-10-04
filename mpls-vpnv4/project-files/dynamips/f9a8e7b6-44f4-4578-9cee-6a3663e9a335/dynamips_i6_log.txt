@@ -1,0 +1,66 @@
+Oct 04 11:21:48.246 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 04 11:21:48.247 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55221.
+Oct 04 11:21:48.255 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 04 11:21:48.256 HYPERVISOR: exec_cmd: hypervisor working_dir D:\GNS3\mpls\project-files\dynamips 
+Oct 04 11:21:48.259 GENERAL: working_dir=D:\GNS3\mpls\project-files\dynamips
+Oct 04 11:21:48.259 HYPERVISOR: exec_cmd: hypervisor working_dir D:\GNS3\mpls\project-files\dynamips\f0d97439-b896-4cd4-9d90-db051f496ec8 
+Oct 04 11:21:48.260 GENERAL: working_dir=D:\GNS3\mpls\project-files\dynamips\f0d97439-b896-4cd4-9d90-db051f496ec8
+Oct 04 11:21:48.260 HYPERVISOR: exec_cmd: vm create R3 4 c7200 
+Oct 04 11:21:48.260 VM: VM R3 created.
+Oct 04 11:21:48.261 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5003 
+Oct 04 11:21:48.261 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Oct 04 11:21:48.261 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:21:48.261 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Oct 04 11:21:48.261 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Oct 04 11:21:48.261 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Oct 04 11:21:48.262 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:21:48.262 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x63184dd4 
+Oct 04 11:21:48.262 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:21:48.262 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Oct 04 11:21:48.263 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Oct 04 11:21:48.263 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:21:48.263 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-2FE-TX 
+Oct 04 11:21:48.263 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:21:48.263 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-2FE-TX 
+Oct 04 11:21:48.305 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:21:51.895 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:21:54.160 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:21:56.905 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:22:03.849 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:22:06.148 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 11:22:39.591 HYPERVISOR: exec_cmd: nio create_udp udp-a8a2da34-3743-43aa-8f7c-7e9e00f25704 20010 127.0.0.1 20011 
+Oct 04 11:22:39.849 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-a8a2da34-3743-43aa-8f7c-7e9e00f25704 
+Oct 04 11:22:39.849 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:23:12.085 HYPERVISOR: exec_cmd: nio create_udp udp-8c318a13-f32d-4ba4-a96c-c0f22e33cde0 20022 127.0.0.1 20023 
+Oct 04 11:23:12.087 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-8c318a13-f32d-4ba4-a96c-c0f22e33cde0 
+Oct 04 11:23:12.087 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:24:45.565 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 04 11:24:45.565 HYPERVISOR: exec_cmd: vm set_ghost_file R3 D:\GNS3\mpls\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Oct 04 11:24:45.565 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 11:24:45.566 HYPERVISOR: exec_cmd: vm set_config R3 configs\i4_startup-config.cfg 
+Oct 04 11:24:45.566 HYPERVISOR: exec_cmd: vm start R3 
+Oct 04 11:25:15.866 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 04 12:57:05.820 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:06.415 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:06.562 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:12.562 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:13.172 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:13.303 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:24.299 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:24.900 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:25.012 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:48.538 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:48.560 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:57:53.979 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:58:00.900 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:58:10.135 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:58:20.685 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/PC/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 04 12:59:38.716 HYPERVISOR: exec_cmd: nio create_udp udp-5c37a41b-5d0b-45cd-bf6a-d2bcd7fa6093 20034 127.0.0.1 20035 
+Oct 04 12:59:38.718 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 1 udp-5c37a41b-5d0b-45cd-bf6a-d2bcd7fa6093 
+Oct 04 12:59:38.718 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 12:59:38.719 HYPERVISOR: exec_cmd: vm slot_enable_nio R3 1 1 
+Oct 04 13:29:17.996 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 04 13:30:53.362 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 04 13:30:53.362 HYPERVISOR: exec_cmd: vm stop R3 
+Oct 04 13:30:53.531 VM: VM R3 shutdown.
+Oct 04 13:30:53.531 HYPERVISOR: exec_cmd: vm extract_config R3 
