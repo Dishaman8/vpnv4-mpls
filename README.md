@@ -31,6 +31,8 @@ The result is a shared MPLS backbone carrying two logically separate customer ne
 
 The startup configurations are at the repository root:
 
+IPv6 dual-stack variants for all seven routers are in [`ipv6-conf/`](ipv6-conf/README.md). They add VPNv6 for QNB and CIB while retaining the IPv4 services. See the [IPv6 design notes](ipv6-conf/README.md) for the 6VPE transport limitation.
+
 | Router | Configuration | Notable function |
 | --- | --- | --- |
 | R1 | [`R1_i1_startup-config.cfg`](R1_i1_startup-config.cfg) | Left PE; CIB1 and QNB1 VRFs; customer BGP peers; VPNv4 peer to R3 |
@@ -92,6 +94,7 @@ On R3, use VRF names `CIB2` and `QNB2` for the last two checks. The exact interf
 .
 ├── Toplogy/                  # Network diagram
 ├── output/                   # CLI screenshots from the lab
+├── ipv6-conf/                # Dual-stack IPv6 and VPNv6 router configurations
 ├── R1_i1_startup-config.cfg
 ├── R2_i2_startup-config.cfg
 ├── R3_i4_startup-config.cfg
